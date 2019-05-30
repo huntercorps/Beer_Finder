@@ -2,7 +2,6 @@
   "name": "beer_finder_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https//huntercorps.github.io/BeerFinder",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
@@ -11,9 +10,10 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
+  "homepage": "https//huntercorps.github.io/Beer_Finder",
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
